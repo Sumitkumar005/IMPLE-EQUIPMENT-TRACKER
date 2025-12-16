@@ -1,0 +1,99 @@
+.equipment-list-container {
+  padding: 20px;
+}
+
+.equipment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .equipment-table {
+    font-size: 14px;
+  }
+  
+  .equipment-table th,
+  .equipment-table td {
+    padding: 8px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+
+.equipment-table th,
+.equipment-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.equipment-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+.equipment-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.edit-button,
+.delete-button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.loading-message,
+.error-message,
+.empty-message {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.error-message {
+  color: #dc3545;
+}
+
+.retry-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.retry-button:hover {
+  background-color: #0056b3;
+}

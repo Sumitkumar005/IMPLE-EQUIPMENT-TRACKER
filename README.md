@@ -118,5 +118,3 @@ NODE_ENV=development
 - Production build scripts
 
 ---
-
-**Built for Leucine Tech Internship Assignment**
